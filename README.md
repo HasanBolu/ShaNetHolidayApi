@@ -23,8 +23,8 @@ then you will be able to request the http://localhost:5000/holiday url with the 
     "jsonrpc":"2.0",
     "method": "PublicHolidays",
     "params":{
-	"start" : 2019,
-	"end" : 2020
+	"startYear" : 2019,
+	"endYear" : 2020
     }
 }
 ```
