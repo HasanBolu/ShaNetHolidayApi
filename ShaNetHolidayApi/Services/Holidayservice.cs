@@ -60,7 +60,8 @@ namespace ShaNetHolidayApi.Services
                 HolidayName = string.IsNullOrWhiteSpace(x.Names.FirstOrDefault().Value.Official) ? x.Names.FirstOrDefault().Value.Common : x.Names.FirstOrDefault().Value.Official,
                 CountryCode = countryCode,
                 Date = x.Date,
-                SubDivisionCode = subDivisionCode
+                SubDivisionCode = subDivisionCode,
+                Type = x.Type.ToString()
             });
         }
     }

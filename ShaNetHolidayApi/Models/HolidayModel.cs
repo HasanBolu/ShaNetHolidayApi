@@ -11,5 +11,6 @@ namespace ShaNetHolidayApi.Models
         public DateTime Date { get; set; }
         public string CountryCode { get; set; }
         public string SubDivisionCode { get; set; }
+        public string Type { get; set; }
     }
 }
